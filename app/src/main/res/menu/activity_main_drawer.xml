@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Schedules" />
+        <item
+            android:id="@+id/nav_docs"
+            android:icon="@drawable/ic_docs"
+            android:title="Documents" />
+        <item
+            android:id="@+id/nav_logs"
+            android:icon="@drawable/ic_logs"
+            android:title="Daily Logs" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_cont_l"
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_map"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_messages"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_photos"
+            android:title="Photos" />
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/ic_project"
+            android:title="Manage Project" />
+        <item
+            android:id="@+id/nav_website"
+            android:icon="@drawable/ic_website"
+            android:title="Website" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
